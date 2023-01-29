@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>AWESOME Musical Instruments</title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!--NAV section-->
+		<div id="nav" class="nav_container">
+			<nav>
+			<a href="#home">HOME</a> 
+			<a href="#pictures">PICTURES</a> 
+			<a href="#videos">VIDEOS</a> 
+			<a href="#contact">CONTACT</a>
+			</nav>
+		</div>
+		<!--END NAV section-->
+		
+		<!--HOME section-->
+		<div id="home">
+			<h2>THE LAND OF INCREDIBLY AWESOME MUSICAL INTRUMENTS</h2>
+			<p>Check out this awesome and unique musical instruments</p>
+		</div>
+		<!--END HOME section-->
+		
+		<!--PICTURES section-->
+		<div id="pictures">
+			<h1>GALLERY</h1>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_1.jpg" onclick="openModal();currentSlide(1)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_2.jpg" onclick="openModal();currentSlide(2)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_3.jpg" onclick="openModal();currentSlide(3)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_4.jpg" onclick="openModal();currentSlide(4)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_5.jpg" onclick="openModal();currentSlide(5)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_6.jpg" onclick="openModal();currentSlide(6)" alt="Can't show image">
+			</div>
+			<div>
+				<img class="hover-shadow cursor" src="./pictures/picture_7.jpg" onclick="openModal();currentSlide(7)" alt="Can't show image">
+			</div>
+		</div>
+		<!--END PICTURES section-->
+		
+		<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_1.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_2.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_3.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_4.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_5.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">6 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_6.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">7 / 7</div>
+		<img class="hover-shadow cursor" src="./pictures/picture_7.jpg" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_1.jpg" onclick="currentSlide(1)" alt="">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_2.jpg" onclick="currentSlide(2)" alt="">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_3.jpg" onclick="currentSlide(3)" alt="">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_4.jpg" onclick="currentSlide(4)" alt="">
+	  </div>
+
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_5.jpg" onclick="currentSlide(5)" alt="">
+	  </div>
+
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_6.jpg" onclick="currentSlide(6)" alt="">
+	  </div>
+
+	  <div class="column">
+		<img class="demo cursor" src="./pictures/picture_7.jpg" onclick="currentSlide(7)" alt="">
+	  </div>
+
+	</div>
+  </div>
+
+		<!--VIDEOS section-->
+		<div id="videos">
+		<h1>VIDEO GALLERY</h1>
+			<div>
+				<h6>Marble Machine</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/IvUU8joBb1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div>
+				<h6>Awesome Rock & Metal Music on Unique Instruments!</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/GH_HalsAwPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div>
+				<h6>The Koto (13 string Japanese traditional instrument)</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/3K6KpkFXKdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div>
+				<h6>Rocking Out With Strange Instruments</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/U1YiKnqM4_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div>
+				<h6>Hurdy Gurdy (The medieval wheel instrument)</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/gYJg9cLk1us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<!--END VIDEOS section-->
+		
+		<!--CONTACT section-->
+		<div id="contact">
+			<h1>Want to buy a unique musical instrument?</h1>
+			<h2>Leave your details we will contact you!</h2>
+			
+			<form action="" method="post">
+				Fisrt Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp <input type="text" name="First_Name"> <br />
+				Last  Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="Last_Name"> <br />
+				Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="Email_Adrress"> <br />
+				Phone Number <input type="text" name="Phone_Number"> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT">
+			</form>
+		</div>
+		<!--END CONTACT section-->
+		
+		<!-- FOOTER -->
+		<div>
+			www.AMI.mc &nbsp;|&nbsp; &copy; 2022
+		</div>
+		<!-- END FOOTER -->
+		<script src="./JS/one_page_website.js" defer></script>
+	</body>
+</html>
